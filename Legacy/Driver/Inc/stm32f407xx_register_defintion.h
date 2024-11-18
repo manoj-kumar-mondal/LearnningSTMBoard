@@ -79,7 +79,7 @@ typedef struct
 {
   volatile uint32_t MEMRMP;                 /*!< Memory Remap               Address Offset: 0x00 >*/
   volatile uint32_t PMC;                    /*!< Peripheral Mode Config     Address Offset: 0x04 >*/
-  volatile uint32_t EXTICR[4];                /*!< External Interrupt Config  Address Offset: 0x08 - 0x14 >*/
+  volatile uint32_t EXTICR[4];              /*!< External Interrupt Config  Address Offset: 0x08 - 0x14 >*/
   uint32_t Reserved[2];
   volatile uint32_t CMPCR;                  /*!< Compensation Cell Control  Address Offset: 0x20 >*/
 } SYSCFG_RegDef_t;

@@ -6,6 +6,7 @@ typedef enum
 {
   NO_ERROR = 0U,
   NULL_ERROR,
+  INCORRECT_VALUE,
   TOTAL_DRIVER_ERROR,
 } Driver_Error_Et;
 

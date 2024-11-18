@@ -106,5 +106,8 @@ uint16_t ReadPort(GPIO_Port_Et Port);
 void WritePin(GPIO_Port_Et Port, GPIO_Pin_Et Pin, Bit_State_Et State);
 Bit_State_Et ReadPin(GPIO_Port_Et Port, GPIO_Pin_Et Pin);
 Bit_State_Et TogglePin(GPIO_Port_Et Port, GPIO_Pin_Et Pin);
+void IRQConfig(uint8_t IRQNumber, uint8_t Mode);
+void SetIRQPriority(uint8_t IRQNumber, uint8_t IRQPriority);
+void IRQHandling(uint8_t Pin);
 
 #endif // __STM32F407XX_GPIO_H__

@@ -2,3 +2,6 @@
 .vscode/
 Debug/
 *.launch
+.project
+.cproject
+*.ld
